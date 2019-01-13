@@ -21,6 +21,16 @@
 	color: #FFFFFF;
 }
 
+#menuicono {
+	display: none;
+	width: 95%;
+	height: 38px;
+	padding: 12px 2% 0px 3%;
+	background-color: #9FC8D9;
+	border-top: 1px solid #094660;
+	border-bottom: 1px solid #094660;
+}
+
 #menuprincipal {
 	width: 96%;
 	height: 50px;
@@ -241,26 +251,31 @@ figure img {
 	#cabeceralogo > div {
 		text-align: center;
 	}
-	
+
 	#cabeceralogo h1 {
 		font: bold 46px Arial, sans-serif;
 	}
-	
+
 	#menuprincipal {
+		display: none;
 		width: 100%;
 		height: 100%;
 		padding: 0%;
 	}
-	
+
 	#menuprincipal li {
 		display: block;
 		margin-right: 0px;
 		text-align: center;
 	}
-	
+
+	#menuicono {
+		display: block;
+	}
+
 	.seccionpie {
 		width: 94%;
 		text-align: center;
 	}
-	
+
 }
